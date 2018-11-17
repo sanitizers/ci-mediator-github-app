@@ -13,6 +13,9 @@ script:
 
 deploy:
   provider: script
-  script: sh -c 'echo "$*"'
+  script: |
+    echo "$$"
+    echo /proc/"$$"/comm
+    echo /proc/"$$"/cmd
   on:
     all_branches: true

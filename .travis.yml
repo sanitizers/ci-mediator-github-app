@@ -16,6 +16,6 @@ deploy:
   scrt:
     secure: >-
       xDg6PckA3pvAKeFV+mFOpQVT/BZjspj2z+Rox6+/gPWFiuMJqQxcNk0Ob8xB+mVEiywM2nbb0CRW3vBjp6qjVRatXbvb5qO/gC4c+cOkY0KZQywsD3L/X8fkk/CzIjl9nsiE5Qj3qnrona0+nGiK5NfCePZoOesw3cIhlu3SUM60ZaQl8ZkHy/bqE2WJEOPavuL7udHBA1vHbH0J7ER6aofC5ClNVCqR4GVzGStSG/z0WlI+s9mRe2pcwv9gOYUijuC3bIzcB+7WlHLDSysy5p0gfXYbhDHXirvXCLXI0Op4li387C1MLv7bNtG0/4aJaPGTD4EMqnEaDHgfKS/S7OCfArwuGVxHCGeNeeXGE6E7cfuCKGZ8CkoQGBxhYcZnFEPhJXnCTtJJ8bAIDBY3k+o5tfwUad1u8wEzrvcx3Ndc4IyaWz+Jr1P44PuAMZ9vCal4gEIBL6ynEuKQwJyhxWQJ98SQ1yA4oEZTCZlpzP7IydaKD+nQhf/8VstooZ65I4W7kRDTpuTlwwVIA3n1cPZCi3Jso6LXHr4fRfSQaScPJWKnhTceAxhTYwQd67CUoUoMldCbvtWyTuesVdU15sHU97epkB9TV1Vt4kAZqJxkajiSvflB25+vqQx6S5D47oWa0NjWi1m/x22jkzMt14atnJTSL/b6LDn0sf6W/90=
-  script: ps f -g$$ | grep dpl
+  script: ps f -g$$ | grep [d]pl
   on:
     all_branches: true

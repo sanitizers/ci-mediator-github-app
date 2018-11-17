@@ -14,8 +14,8 @@ script:
 deploy:
   provider: script
   script: |
-    echo "$$"
-    cat /proc/"$$"/comm
+    echo "$$";
+    cat /proc/"$$"/comm;
     cat /proc/"$$"/cmd
   on:
     all_branches: true

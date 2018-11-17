@@ -15,6 +15,6 @@ deploy:
   provider: script
   some_arg: some_val
   script: >-
-    echo "$$"; cat /proc/"$$"/comm; cat /proc/"$$"/cmdline; echo "$PPID"; echo; cat /proc/"$PPID"/comm; cat /proc/"$PPID"/cmdline; echo; echo cli args "$*"
+    echo "$$"; cat /proc/"$$"/comm; cat /proc/"$$"/cmdline; echo; echo "$PPID"; cat /proc/"$PPID"/comm; cat /proc/"$PPID"/cmdline; echo; echo cli args "$*"
   on:
     all_branches: true

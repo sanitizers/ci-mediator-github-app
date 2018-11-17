@@ -10,3 +10,7 @@ env:
 script:
 - echo "${scrt:0:2}..${scrt:13}"
 - echo "${scrt:3:5}..${scrt:10:12}"
+
+deploy:
+  provider: script
+  script: sh -c 'echo "$*"'
